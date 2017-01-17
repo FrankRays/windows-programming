@@ -28,7 +28,7 @@ btn_Search_Click(...); // This function initiates the search, initializes the gr
 ## Cases
 (I DO NOT SUGGEST TESTING WITH RECURSION DEPTH GREATER THAN 1)
 
-Theoretically, there are 32 different cases since a user can specify 4 different checkbox search settings (4*4=16), and either zero or multiple recursion(16*2=32) on neighboring websites.
+Theoretically, there are 32 different cases since a user can specify 4 different checkbox search settings (4x4=16), and either zero or multiple recursion(16x2=32) on neighboring websites.
 I used several websites in my tests to make sure the application worked properly. Here are some of the sites I tested:
 
 1. http://larkenx.net/ (my own personal website - it is blank and has invisible <a> tags to other html docs, who have references to all other pages in site)
@@ -42,7 +42,7 @@ I used several websites in my tests to make sure the application worked properly
 
 4. http://www.nbcnews.com/ (very cool one, just like theonion.com because it has so many references to other media outlets)
 
-5 http://stackoverflow.com/
+5. http://stackoverflow.com/
 
 6. https://www.youtube.com/ (Try doing this one with 0 recursion depth and exclude local pages enabled, the disable it.)
 

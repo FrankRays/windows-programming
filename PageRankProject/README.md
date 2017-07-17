@@ -12,28 +12,6 @@ built-in Viewer from MSAGL to explore the graph visually.
 The application also dumps all of the links it visits into a "dumb" text box called Logs, and also builds a nice textual tree view control object as well. The different
 search parameters can have effects both on the search space and the aesthetics of the graph that is portrayed. 
 
-## Cases
-(I DO NOT SUGGEST TESTING WITH RECURSION DEPTH GREATER THAN 1)
-
-Theoretically, there are 32 different cases since a user can specify 4 different checkbox search settings (4*4=16), and either zero or multiple recursion(16*2=32) on neighboring websites.
-I used several websites in my tests to make sure the application worked properly. Here are some of the sites I tested:
-
-1. http://larkenx.net/ (my own personal website - it is blank and has invisible <a> tags to other html docs, who have references to all other pages in site)
-
-	Use http://larkenx.net/ to test all of the different parameters first since it only contains a maximum of ~6 links. This will allow you to test all of the features of the
-	application quickly since there's not a lot of search space and it evaluates very quickly.
-
-2. http://www.theonion.com/ (good site because it shows how the application branches out to multiple media outlets within a recursion depth of 1-2)
-
-3. http://fandom.wikia.com/ (I like this one since wikia has a lot of children sites (e.g. marvel.wikia, harrypotter.wikia, toystory.wikia))
-
-4. http://www.nbcnews.com/ (very cool one, just like theonion.com because it has so many references to other media outlets)
-
-5 http://stackoverflow.com/
-
-6. https://www.youtube.com/ (Try doing this one with 0 recursion depth and exclude local pages enabled, the disable it.)
-
-
 # Phase 2 Storyboard Feature Completion
 
 In my phase 2 story board, I included a few extra windows forms such as "settings/options" and a pop-out window for a "graph visualization".

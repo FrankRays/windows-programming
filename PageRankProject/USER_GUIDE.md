@@ -11,12 +11,12 @@ There are two types of parameters a user can set:
 # Search Trimming Parameters: 
 *These types of parameters actually reduce/trim the search space of the application. The application will not visit some webpages based on whether or not these settings are enabled. Since these parameters do affect the search space, they also affect the runtime of the application by making it run a lot faster since there are less nodes and edges to traverse, and graphically generate.*
 
--Suffix stripping (Decreases runtime)
--Exclude local pages (Decreases runtime)
--Allow multiple edges (Significantly increases runtime)
+- Suffix stripping (Decreases runtime)
+- Exclude local pages (Decreases runtime)
+- Allow multiple edges (Significantly increases runtime)
 
 Non-search trimming parameters (Aesthetic effect only):
--Prefix trimming (Little to no effect on runtime)
+- Prefix trimming (Little to no effect on runtime)
 
 # Step-by-Step Using the App
 1. Type in a URL into the top-left textbox. You must include the full URL/URI path including its prefix (e.g "http://", "https://")
